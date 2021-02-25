@@ -1,0 +1,17 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "basic express web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "uniqid": "^5.3.0"
+  }
+}
